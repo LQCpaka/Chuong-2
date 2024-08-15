@@ -10,6 +10,6 @@ public class KETQUA
     public string MaSV { get; set; }
 
     public string MaMH { get; set; }
-    public float Diem { get; set; }
+    public float DiemThi { get; set; }
 }
 

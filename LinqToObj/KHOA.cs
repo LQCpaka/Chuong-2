@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public class KHOA
 {
-    public string MaKH { get; set; }
-    public string TenKH { get; set; }
+    public string MaKh { get; set; }
+    public string TenKh { get; set; }
 }
 

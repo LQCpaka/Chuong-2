@@ -44,20 +44,20 @@ namespace LinqToObj
         {
             KHOAs = new List<KHOA>
             {
-                new KHOA{MaKH = "TH",TenKH="Tin Hoc"},
-                new KHOA{MaKH = "AV",TenKH="Anh Van"},
-                new KHOA{MaKH = "OT",TenKH="O To"},
-                new KHOA{MaKH = "DT",TenKH="Dien Tu"},
-                new KHOA{MaKH = "KT",TenKH="Kinh Te"}
+                new KHOA{MaKh = "TH",TenKh="Tin Hoc"},
+                new KHOA{MaKh = "AV",TenKh="Anh Van"},
+                new KHOA{MaKh = "OT",TenKh="O To"},
+                new KHOA{MaKh = "DT",TenKh="Dien Tu"},
+                new KHOA{MaKh = "KT",TenKh="Kinh Te"}
             };
             SINHVIENs = new List<SINHVIEN>
             {
-                new SINHVIEN{MaSV="A01",HoTen="Nguyen Van Hung",MaKH="TH",HocBong=1500000},
-                new SINHVIEN{MaSV="A02",HoTen="Le Quoc Can",MaKH="AV",HocBong=12000},
-                new SINHVIEN{MaSV="A03",HoTen="Nguyen Van a",MaKH="OT",HocBong=135000},
-                new SINHVIEN{MaSV="A04",HoTen="Nguyen Van b",MaKH="DT",HocBong=15300},
-                new SINHVIEN{MaSV="A05",HoTen="Nguyen Van c",MaKH="DT",HocBong=3500000},
-                new SINHVIEN{MaSV="A06",HoTen="Nguyen Van d",MaKH="KT",HocBong=2000},
+                new SINHVIEN{MaSV="A01",HoTen="Nguyen Van Hung",MaKh="TH",HocBong=1500000},
+                new SINHVIEN{MaSV="A02",HoTen="Le Quoc Can",MaKh="AV",HocBong=12000},
+                new SINHVIEN{MaSV="A03",HoTen="Nguyen Van a",MaKh="OT",HocBong=135000},
+                new SINHVIEN{MaSV="A04",HoTen="Nguyen Van b",MaKh="DT",HocBong=15300},
+                new SINHVIEN{MaSV="A05",HoTen="Nguyen Van c",MaKh="DT",HocBong=3500000},
+                new SINHVIEN{MaSV="A06",HoTen="Nguyen Van d",MaKh="KT",HocBong=2000},
             };
         }
     }
